@@ -1,4 +1,4 @@
-# Chev's point and click
+# Chev's Quest
 
 > **Auteur :** *Hadrien Belleville (Vraus)*
 >
