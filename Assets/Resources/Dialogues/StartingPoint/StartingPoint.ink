@@ -1,7 +1,7 @@
 -> main
 
 === main ===
-Bienvenu Deryne. Tu es ici dans une petite aventure Point and Click concoctée par mes soins. J'espère que le jeu te plaira, sache que j'y ai mis tout mon coeur !
+Bienvenu. Cliquer pour commencer le jeu:
     +[1. Commencer]
         -> start()
     +[2. Commencer]
@@ -10,7 +10,7 @@ Bienvenu Deryne. Tu es ici dans une petite aventure Point and Click concoctée p
         -> start()
         
 === start() ===
-Tu devras trouver 4 indices, ni plus ni moins.
+Tu devras trouver 4 indices, ni plus ni moins. (Appuyez sur Espace pour continuer)
 4 est le nombre d'indices que tu devras trouver, et le nombre d'indices sera de 4.
 5 n'est pas le nombre d'indices, ni 3, à moins que tu ne trouves ensuite le quatrième.
 6 est à exclure.
