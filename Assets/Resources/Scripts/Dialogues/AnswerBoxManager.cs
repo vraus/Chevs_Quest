@@ -7,6 +7,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class AnswerBoxManager : MonoBehaviour
 {
@@ -108,6 +109,10 @@ public class AnswerBoxManager : MonoBehaviour
             boardTip = true;
             PlayerStats.GetInstance().AddTip();
             PlayerStats.GetInstance().HasBoardTip();
+        }
+        else if (_caller == "Barkeep" && PlayerStats.GetInstance().tips == 4)
+        {
+            SceneManager.LoadScene(2);
         }
 
     }
